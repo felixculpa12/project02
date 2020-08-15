@@ -47,6 +47,14 @@ body{
     color: #13547a;
     letter-spacing: .2em;
     font-weight: 200;
+    transition: all 0.2s 0s ease;
+}
+.topnav a:hover{
+    color: #ff5858;
+    font-size: 18px;
+    font-weight: 300;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 .search{
     position: absolute;
@@ -60,14 +68,21 @@ body{
 .main{
     width: 1200px;
     margin: auto;
-    padding: 120px 0px 0px 80px;
+    position: relative;
+    /* padding: 120px 0px 0px 80px; */
 }
 .main span{
     color: #13547a;
     letter-spacing: .2em;
     font-size: 13px;
+    position: absolute;
+    top: 120px;
+    left: 80px;
 }
 .main h2{
+    position: absolute;
+    top: 170px;
+    left: 80px;
     font-size: 120px;
     letter-spacing: .2em;
     -webkit-text-stroke: 1px #13547a;
@@ -75,13 +90,19 @@ body{
     text-shadow: #fff 0px 0 10px;
 }
 .main .text{
+    position: absolute;
+    top: 350px;
+    left: 80px;
     width: 550px;
     letter-spacing: .2em;
     color: #13547a;
     line-height: 2em;
     padding-bottom: 30px;
 }
-.point{
+.pointmama{
+    position: absolute;
+    top: 600px;
+    left: 80px;
 }
 .point a:before{
     content : ' ' ;
@@ -92,7 +113,6 @@ body{
     border-radius: 50%;
     background-color: #fff;
     vertical-align: middle;
-    margin-right: 20px;
 }
 .btn{
     position: absolute;
